@@ -504,16 +504,16 @@
 
 
 <cost><company>Kelburn Airways</company>
-<to>Auckland, New Zealand</to>
-<from>Wellington, New Zealand</from>
-<type>Air</type>
-<weightcost>19</weightcost>
-<volumecost>19</volumecost>
-<maxWeight>200</maxWeight>
-<maxVolume>200</maxVolume>
-<duration>24</duration>
-<frequency>36</frequency>
-<day>Monday</day>
+    <to>Auckland, New Zealand</to>
+    <from>Wellington, New Zealand</from>
+    <type>Air</type>
+    <weightcost>19</weightcost>
+    <volumecost>19</volumecost>
+    <maxWeight>200</maxWeight>
+    <maxVolume>200</maxVolume>
+    <duration>24</duration>
+    <frequency>36</frequency>
+    <day>Monday</day>
 </cost>
 
 
@@ -767,5 +767,54 @@
 <frequency>36</frequency>
 <day>Monday</day>
 </cost>
+
+
+<price>
+    <from>Wellington, New Zealand</from>
+    <to>Auckland, New Zealand</to>
+    <priority>Domestic Air</priority>
+    <weightcost>15</weightcost>
+    <volumecost>15</volumecost>
+</price>
+
+<price>
+    <from>Wellington, New Zealand</from>
+    <to>Auckland, New Zealand</to>
+    <priority>Domestic Standard</priority>
+    <weightcost>10</weightcost>
+    <volumecost>10</volumecost>
+</price>
+
+<price>
+    <from>Wellington, New Zealand</from>
+    <to>Christchurch, New Zealand</to>
+    <priority>Domestic Air</priority>
+    <weightcost>15</weightcost>
+    <volumecost>15</volumecost>
+</price>
+
+<price>
+    <from>Wellington, New Zealand</from>
+    <to>Christchurch, New Zealand</to>
+    <priority>Domestic Standard</priority>
+    <weightcost>10</weightcost>
+    <volumecost>10</volumecost>
+</price>
+
+<price>
+    <from>Auckland, New Zealand</from>
+    <to>Dunedin, New Zealand</to>
+    <priority>Domestic Standard</priority>
+    <weightcost>5</weightcost>
+    <volumecost>5</volumecost>
+</price>
+
+<price>
+    <from>Auckland, New Zealand</from>
+    <to>Palmerston North, New Zealand</to>
+    <priority>Domestic Standard</priority>
+    <weightcost>5</weightcost>
+    <volumecost>5</volumecost>
+</price>
 
 </log>
